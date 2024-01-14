@@ -1,0 +1,43 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+    background-color: #444444;
+    transition: background-color 0.25s;
+}
+
+.header.transparent {
+    background-color: transparent;
+}
+
+.header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header .logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header .navigation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .navigation a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}

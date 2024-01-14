@@ -1,0 +1,199 @@
+.contentContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.centeredPlaceholder {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.sectionHero {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 1080px;
+    background-color: rgb(201, 201, 201);
+    background-image: url("/images/hero.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sectionHero .heroCenter {
+    position: absolute;
+    width: 100%;
+    padding: 16px 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sectionHero .heroLogo {
+    font-size: 48px;
+    margin-top: 100px;
+}
+
+.sectionHero .heroDescription {
+    font-size: 20px;
+}
+
+.sectionHero .heroButtons {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100px;
+    gap: 10px;
+}
+
+.sectionDescription {
+    padding: 100px 0;
+    color: #ffffff;
+    background-color: #444444;
+}
+
+.sectionDescription iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+}
+
+.sectionDescription .sliderButtonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+section .contentContainer > .title {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+section .contentContainer > .descriptionContainer {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 24px;
+}
+
+section .contentContainer > .descriptionContainer .description + .description {
+    margin-top: 32px;
+}
+
+.sectionPurchase {
+    padding: 100px 0;
+    background-color: rgb(121, 101, 101);
+}
+
+.sectionPurchase .dlcSlider {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sectionPurchase .dlcSlide {
+    position: relative;
+    flex-basis: 550px;
+}
+
+.sectionPurchase .dlcImg {
+    position: absolute;
+    z-index: 2;
+    left: 50px;
+}
+
+.sectionPurchase .dlcImg img {
+    display: block;
+    border-radius: 10px;
+}
+
+.sectionPurchase .dlcInfo {
+    margin: 30px 0;
+    padding: 20px 20px 20px 298px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.sectionPurchase .dlcInfo .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sectionNews {
+    padding: 100px 0;
+    background-color: rgb(89, 128, 69);
+}
+
+.sectionCredit {
+    padding: 100px 0;
+    background-color: rgb(60, 127, 133);
+
+
+    position: relative;
+    height: 200vh;
+    min-height: 400px;
+    max-height: 400px;
+    background-color: rgb(201, 201, 201);
+    background-image: url("/images/pixile.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.button, .prevButton, .nextButton {
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    border: none;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.steam {
+    background-color: #0e1d45;
+    color: #ffffff;
+}
+.xbox {
+    color: #ffffff;
+    background-color: green;
+}
+.nintendo {
+    color: #ffffff;
+    background-color: orange;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+.slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.dlcSlider {
+    display: flex;
+}
+.dlcSlide {
+    /*background-color: white;*/
+    width: 550px;
+    /*height: 400px;*/
+    height: 342px;
+    display: flex;
+}
+.dlcInfo {
+    font-size: 16px;
+    font-weight: 100;
+    color: #000000;
+}
