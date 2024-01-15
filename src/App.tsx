@@ -1,12 +1,17 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { store } from "./store/store.ts";
 import { Provider } from "react-redux";
-import Index from "./routes";
+import IndexPage from "./routes";
+import MerchPage from "./routes/merch";
 
 const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <Index/>,
+		element: <IndexPage/>,
+	},
+	{
+		path: "/merch",
+		element: <MerchPage/>,
 	},
 ]);
 
