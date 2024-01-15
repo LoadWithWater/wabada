@@ -39,6 +39,10 @@
     margin-top: 100px;
 }
 
+.sectionHero .heroLogo img {
+    width: 360px;
+}
+
 .sectionHero .heroDescription {
     font-size: 20px;
 }
@@ -136,9 +140,6 @@ section .contentContainer > .descriptionContainer .description + .description {
 
 .sectionCredit {
     padding: 100px 0;
-    background-color: rgb(60, 127, 133);
-
-
     position: relative;
     height: 200vh;
     min-height: 400px;
@@ -158,6 +159,7 @@ section .contentContainer > .descriptionContainer .description + .description {
     font-weight: bold;
     cursor: pointer;
 }
+
 .steam {
     background-color: #0e1d45;
     color: #ffffff;

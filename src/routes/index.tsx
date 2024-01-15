@@ -2,7 +2,7 @@ import Header from "../components/app/Header";
 import styles from "./index.module.css";
 import { useCallback, useState } from "react";
 
-function Index() {
+function IndexPage() {
 
 	// States
 
@@ -30,15 +30,16 @@ function Index() {
 			<main className={styles.sectionHero}>
 				<div className={styles.heroCenter}>
 					<div className={styles.heroLogo}>
+						<img alt={"SUPER ANIMAL ROYALE"} src={"/images/sar-logo.png"}/>
 					</div>
 					<div className={styles.heroDescription}>
 						64 animals will fight against each other and only the last one will emerge victorious!<br/>
 						Which animal will survive to the end and become WABADA?
 					</div>
 					<div className={styles.heroButtons}>
-						<button className="button steam">Steam</button>
-						<button className="button xbox">Xbox</button>
-						<button className="button nintendo">Nintendo</button>
+						<button className={[styles.button, styles.steam].join(" ")}>Steam</button>
+						<button className={[styles.button, styles.xbox].join(" ")}>Xbox</button>
+						<button className={[styles.button, styles.nintendo].join(" ")}>Nintendo</button>
 					</div>
 				</div>
 			</main>
@@ -99,7 +100,7 @@ function Index() {
 						</div>
 						<div className={styles.dlcSlide}>
 							<div className={styles.dlcImg}>
-								<img src="/public/images/Super Animal Royale Super Edition.png" width="228" height="342"/>
+								<img src="/images/Super Animal Royale Super Edition.png" width="228" height="342"/>
 							</div>
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SUPER EDITION</div>
@@ -108,7 +109,7 @@ function Index() {
 						</div>
 						<div className={styles.dlcSlide}>
 							<div className={styles.dlcImg}>
-								<img src="/public/images/Super Animal Royale Starter Pack.png" width="228" height="342"/>
+								<img src="/images/Super Animal Royale Starter Pack.png" width="228" height="342"/>
 							</div>
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SEASON 10 STARTER PACK</div>
@@ -125,7 +126,6 @@ function Index() {
 			</section>
 			<section className={styles.sectionCredit}>
 				<div className={styles.contentContainer}>
-					<div className={styles.centeredPlaceholder}>COMPANY</div>
 				</div>
 			</section>
 		</>
@@ -133,4 +133,4 @@ function Index() {
 
 }
 
-export default Index;
+export default IndexPage;
