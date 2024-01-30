@@ -163,6 +163,14 @@ section .contentContainer > .descriptionContainer .description + .description {
 .steam {
     background-color: #0e1d45;
     color: #ffffff;
+    transition:
+        color 0.2s,
+        background-color 0.2s,
+        transform 0.2s;
+}
+.steam:hover {
+    background-color: #ffffff;
+    color: #000000;
 }
 .xbox {
     color: #ffffff;
