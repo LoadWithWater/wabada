@@ -161,24 +161,46 @@ section .contentContainer > .descriptionContainer .description + .description {
 }
 
 .steam {
-    background-color: #0e1d45;
     color: #ffffff;
+    background-color: #0e1d45;
+    border: solid 2px #9bd8e7;
     transition:
-        color 0.2s,
-        background-color 0.2s,
-        transform 0.2s;
+        color 0.3s,
+        background-color 0.3s,
+        transform 0.3s;
 }
 .steam:hover {
-    background-color: #ffffff;
+    background-color: #9bd8e7;
     color: #000000;
+    border: solid 2px #9bd8e7;
 }
 .xbox {
     color: #ffffff;
-    background-color: green;
+    background-color: #0f780f;
+    border: solid 2px #9fee9f;
+    transition:
+        color 0.3s,
+        background-color 0.3s,
+        transform 0.3s;
+}
+.xbox:hover {
+    background-color: #9fee9f;
+    color: #000000;
+    border: solid 2px #9fee9f;
 }
 .nintendo {
     color: #ffffff;
-    background-color: orange;
+    background-color: #df0011;
+    border: solid 2px #ffbac0;
+    transition:
+        color 0.3s,
+        background-color 0.3s,
+        transform 0.3s;
+}
+.nintendo:hover {
+    background-color: #ffbac0;
+    color: #000000;
+    border: solid 2px #ffbac0;
 }
 
 .slider {
