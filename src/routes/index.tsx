@@ -52,27 +52,21 @@ function IndexPage() {
 							Only one gets to do the winner dance.
 						</div>
 					</div>
-					<div className={styles.slider}>
-						{videoSlideIndex === 0 && (
+					<div className={styles.sliderWrapper}>
+						<div className={styles.slider} style={{ left: `calc(${-100 * videoSlideIndex}% + ${-30 * videoSlideIndex}px)` }}>
 							<div className={styles.slide}>
 								<iframe width="960" height="540" src="https://www.youtube.com/embed/U4302dKJegc" title="" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 							</div>
-						)}
-						{videoSlideIndex === 1 && (
 							<div className={styles.slide}>
 								<iframe width="960" height="540" src="https://www.youtube.com/embed/mlhg2rMHOlY" title="" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 							</div>
-						)}
-						{videoSlideIndex === 2 && (
 							<div className={styles.slide}>
 								<iframe width="960" height="540" src="https://www.youtube.com/embed/jQi_6kWmflQ" title="" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 							</div>
-						)}
-						{videoSlideIndex === 3 && (
 							<div className={styles.slide}>
 								<iframe width="960" height="540" src="https://www.youtube.com/embed/zp_MrjsDfco" title="" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 							</div>
-						)}
+						</div>
 					</div>
 					<div className={styles.sliderButtonContainer}>
 						<button className={styles.prevButton} onClick={prevSlide}>Prev</button>
