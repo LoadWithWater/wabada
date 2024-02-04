@@ -203,12 +203,20 @@ section .contentContainer > .descriptionContainer .description + .description {
     border: solid 2px #ffbac0;
 }
 
-.slider {
+.sliderWrapper {
     display: flex;
     overflow: hidden;
     width: 100%;
     transition: transform 0.5s ease;
 }
+.slider {
+    position: relative;
+    display: flex;
+    width: calc(400% + 30px + 30px + 30px);
+    gap: 30px;
+    transition: left 0.25s;
+}
+
 .slide {
     flex: 0 0 100%;
     max-width: 100%;
