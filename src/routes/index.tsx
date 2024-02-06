@@ -68,6 +68,12 @@ function IndexPage() {
 							</div>
 						</div>
 					</div>
+					<div className={styles.sliderIndicator}>
+						<span className={styles.indicator}></span>
+						<span className={styles.indicator}></span>
+						<span className={styles.indicator}></span>
+						<span className={styles.indicator}></span>
+					</div>
 					<div className={styles.sliderButtonContainer}>
 						<button className={styles.prevButton} onClick={prevSlide}>Prev</button>
 						<button className={styles.nextButton} onClick={nextSlide}>Next</button>

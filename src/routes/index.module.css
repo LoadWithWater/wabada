@@ -222,6 +222,19 @@ section .contentContainer > .descriptionContainer .description + .description {
     flex: 0 0 100%;
     max-width: 100%;
 }
+
+.sliderIndicator {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.indicator {
+    background-color: white;
+    width: 80px;
+    height: 20px;
+    margin: 0px 5px 0px 5px;
+}
+
 .prevButton {
     transition:
         color 0.3s,
