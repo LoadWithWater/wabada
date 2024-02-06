@@ -213,6 +213,28 @@ section .contentContainer > .descriptionContainer .description + .description {
     flex: 0 0 100%;
     max-width: 100%;
 }
+.prevButton {
+    transition:
+        color 0.3s,
+        background-color 0.3s,
+        transform 0.3s;
+}
+.prevButton:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+.nextButton {
+    transition:
+        color 0.3s,
+        background-color 0.3s,
+        transform 0.3s;
+}
+.nextButton:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+
 
 .dlcSlider {
     display: flex;
