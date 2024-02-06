@@ -1,5 +1,6 @@
 import style from "./index.module.css";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 interface Props {
 	transparentOnTop?: boolean;
@@ -41,10 +42,10 @@ function Header(props: Props) {
 			<div className={style.container}>
 				<div className={style.logo}>LOGO</div>
 				<nav className={style.navigation}>
-					<a href="./merch.html">MERCH</a>
+					<Link to="/merch">MERCH</Link>
 					<a href="https://animalroyale.fandom.com/wiki/Super_Animal_Royale_Wiki">WIKI</a>
-					<a href="./community.html">COMMUNITY</a>
-					<a href="./profile.html">PROFILE</a>
+					<Link to="/community">COMMUNITY</Link>
+					<Link to="/profile">PROFILE</Link>
 				</nav>
 			</div>
 		</div>

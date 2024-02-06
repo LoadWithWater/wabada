@@ -144,10 +144,11 @@ section .contentContainer > .descriptionContainer .description + .description {
     height: 200vh;
     min-height: 400px;
     max-height: 400px;
-    background-color: rgb(201, 201, 201);
+    background-color: #2b302f;
     background-image: url("/images/pixile.png");
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .button, .prevButton, .nextButton {
@@ -203,12 +204,20 @@ section .contentContainer > .descriptionContainer .description + .description {
     border: solid 2px #ffbac0;
 }
 
-.slider {
+.sliderWrapper {
     display: flex;
     overflow: hidden;
     width: 100%;
     transition: transform 0.5s ease;
 }
+.slider {
+    position: relative;
+    display: flex;
+    width: calc(400% + 30px + 30px + 30px);
+    gap: 30px;
+    transition: left 0.25s;
+}
+
 .slide {
     flex: 0 0 100%;
     max-width: 100%;
