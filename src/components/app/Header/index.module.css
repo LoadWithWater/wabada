@@ -29,6 +29,14 @@
     color: #ffffff;
     text-decoration: none;
 }
+.header .logo a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 4px 8px;
+    transition: transform 0.25s, background-color 0.25s;
+}
 
 .header .navigation {
     display: flex;

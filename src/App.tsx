@@ -3,6 +3,7 @@ import { store } from "./store/store.ts";
 import { Provider } from "react-redux";
 import IndexPage from "./routes";
 import MerchPage from "./routes/merch";
+import LoginPage from "./routes/login/index.tsx";
 
 const router = createBrowserRouter([
 	{
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
 		path: "/merch",
 		element: <MerchPage/>,
 	},
+	{
+		path: "/login",
+		element: <LoginPage/>,
+	}
 ]);
 
 function App() {

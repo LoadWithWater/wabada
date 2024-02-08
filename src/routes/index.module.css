@@ -230,8 +230,8 @@ section .contentContainer > .descriptionContainer .description + .description {
 }
 .indicator {
     background-color: white;
-    width: 80px;
-    height: 20px;
+    width: 60px;
+    height: 10px;
     margin: 0px 5px 0px 5px;
 }
 

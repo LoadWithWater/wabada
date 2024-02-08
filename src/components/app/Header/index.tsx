@@ -40,8 +40,9 @@ function Header(props: Props) {
 	return (
 		<div className={[style.header, isTransparent ? style.transparent : ""].join(" ")}>
 			<div className={style.container}>
-				<div className={style.logo}>LOGO</div>
+				<div className={style.logo}><Link to="/">LOGO</Link></div>
 				<nav className={style.navigation}>
+					<Link to="/login">Login</Link>
 					<Link to="/merch">MERCH</Link>
 					<a href="https://animalroyale.fandom.com/wiki/Super_Animal_Royale_Wiki">WIKI</a>
 					<Link to="/community">COMMUNITY</Link>
