@@ -5,6 +5,13 @@ function LoginPage() {
     return (
         <>
             <Header/>
+            <div className="inputLogin">
+
+            </div>
+            <div className="inputPassword">
+
+            </div>
+            <button className="signinButton">로그인</button>
         </>
     )
 }
