@@ -6,10 +6,12 @@ function LoginPage() {
         <>
             <Header/>
             <div className={style.loginContainer}>
-                <div className="inputLogin">
+                <h1>Participate In Wabada Land!</h1>
+                
+                <div className={style.inputLogin}>
                     <input type="text"></input>
                 </div>
-                <div className="inputPassword">
+                <div className={style.inputLogin}>
                     <input type="password"></input>
                 </div>
                 <button className={style.signinButton}>Sign In</button>

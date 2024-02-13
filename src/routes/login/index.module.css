@@ -5,13 +5,19 @@
     align-items: center;
 }
 
+.inputLogin .inputPassword {
+    width: 100%;
+}
 
 .signinButton {
     font-family: inherit;
-    background-color: rgb(0, 0, 0);
+    background-color: #dd5c32;
     color: white;
     width: 200px;
     height: 30px;
     border: none;
     border-radius: 30px;
+}
+.signinButton:hover {
+    cursor: pointer;
 }
