@@ -1,5 +1,7 @@
 body {
     background-image: url(../../../public/images/hero.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .loginContainer {
@@ -13,6 +15,10 @@ body {
     width: 100%;
 }
 
+h3 {
+    color: #dd5c32;
+}
+
 .signinButton {
     font-family: inherit;
     background-color: #dd5c32;
@@ -21,7 +27,16 @@ body {
     height: 30px;
     border: none;
     border-radius: 30px;
+    transition: 
+        color 0.2s,
+        background-color 0.2s,
+        transform 0.2s
 }
+.signinButton:hover {
+    background-color: #FFFFFF;
+    color: #dd5c32;
+}
+
 .signinButton:hover {
     cursor: pointer;
 }
