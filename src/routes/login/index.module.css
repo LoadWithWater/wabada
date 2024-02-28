@@ -4,13 +4,19 @@ body {
     background-repeat: no-repeat;
 }
 
+.loginBackground {
+    display: grid;
+    justify-content: center;
+}
+
 .loginContainer {
     margin-top: 300px;
     display: grid;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    width: 50%;
+    width: 110%;
+    padding: 10px 10px 10px 10px;
 }
 
 .inputLogin .inputPassword {
@@ -22,6 +28,7 @@ h3 {
 }
 
 .signinButton {
+    margin-top: 10px;
     font-family: inherit;
     background-color: #dd5c32;
     color: white;
@@ -37,8 +44,6 @@ h3 {
 .signinButton:hover {
     background-color: #FFFFFF;
     color: #dd5c32;
-}
-
-.signinButton:hover {
     cursor: pointer;
+    border: 1px #dd5c32 solid;
 }
