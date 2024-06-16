@@ -1,5 +1,5 @@
 import Header from "../../components/app/Header";
-import styles from "index.module.css";
+import styles from "./index.module.css";
 
 function MerchPage() {
 
@@ -16,7 +16,7 @@ function MerchPage() {
 			<section id="sectionMerch1">
 				<div className="content-container">
 					<div className="centered-placeholder">
-						<div className="item-back">
+						<div className={styles.itemBack}>
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
@@ -34,7 +34,7 @@ function MerchPage() {
 			<section id="sectionMerch2">
 				<div className="content-container">
 					<div className="centered-placeholder">
-						<div className="item-back">
+						<div className={styles.itemBack}>
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
@@ -57,7 +57,7 @@ function MerchPage() {
 			<section id="sectionMerch3">
 				<div className="content-container">
 					<div className="centered-placeholder">
-						<div className="item-back">
+						<div className={styles.itemBack}>
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>

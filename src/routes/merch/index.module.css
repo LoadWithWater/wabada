@@ -14,7 +14,7 @@
     background-image: url('/images/SAR\ background\ 3.jpg');
 }
 
-.item-back {
+.itemBack {
     display: flex;
     justify-content: right;
 }
