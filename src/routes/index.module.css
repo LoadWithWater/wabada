@@ -152,7 +152,7 @@ section .contentContainer > .descriptionContainer .description + .description {
 }
 
 .button, .prevButton, .nextButton {
-    padding: 20px 70px 20px 70px;
+    padding: 20px 70px 20px 70px; 
     border-radius: 50px;
     border: none;
     font-family: inherit;
