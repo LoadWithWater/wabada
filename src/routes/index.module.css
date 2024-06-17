@@ -152,13 +152,16 @@ section .contentContainer > .descriptionContainer .description + .description {
 }
 
 .button, .prevButton, .nextButton {
-    padding: 10px 30px 10px 30px;
+    padding: 20px 70px 20px 70px;
     border-radius: 50px;
     border: none;
     font-family: inherit;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .steam {
