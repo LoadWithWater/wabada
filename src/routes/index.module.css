@@ -231,6 +231,9 @@ section .contentContainer > .descriptionContainer .description + .description {
     justify-content: center;
     margin-top: 20px;
 }
+.indicator:first-child {
+    background-color: black;
+}
 .indicator {
     background-color: white;
     width: 60px;
