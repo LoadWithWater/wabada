@@ -6,17 +6,17 @@ body {
 
 .loginBackground {
     display: grid;
-    justify-content: center;
+    justify-content: right;
 }
 
 .loginContainer {
-    margin-top: 300px;
     display: grid;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    width: 120%;
-    padding: 10px 10px 10px 10px;
+    width: 50vw;
+    height: 100vh;
+    padding: 10px 0px 10px 0px;
 }
 
 .inputLogin .inputPassword {
