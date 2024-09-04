@@ -216,7 +216,7 @@ section .contentContainer > .descriptionContainer .description + .description {
 .slider {
     position: relative;
     display: flex;
-    width: calc(400% + 30px + 30px + 30px);
+    width: calc(100% * 4 + 30px * 3);
     gap: 30px;
     transition: left 0.25s;
 }
@@ -229,17 +229,24 @@ section .contentContainer > .descriptionContainer .description + .description {
 .sliderIndicator {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
+    width: 100%;
 }
-.indicator:first-child {
-    background-color: black;
-}
+
 .indicator {
+    z-index: 10;
+    position: relative;
     background-color: white;
     width: 60px;
     height: 10px;
-    margin: 0px 5px 0px 5px;
+    margin: 0px 5px;
+    transition: background-color 0.3s ease;
 }
+.indicator.active {
+    background-color: black !important;
+}
+
 
 .prevButton {
     transition:

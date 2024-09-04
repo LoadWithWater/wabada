@@ -7,6 +7,7 @@ function IndexPage() {
 	// States
 
 	const [videoSlideIndex, setVideoSlideIndex] = useState<number>(0);
+	const totalSlides: number = 4; // 슬라이드 총 개수
 
 	// Callbacks
 
@@ -69,10 +70,12 @@ function IndexPage() {
 						</div>
 					</div>
 					<div className={styles.sliderIndicator}>
-						<span className={styles.indicator}></span>
-						<span className={styles.indicator}></span>
-						<span className={styles.indicator}></span>
-						<span className={styles.indicator}></span>
+						{Array.from({ length: totalSlides }).map((_, index) => (
+							<span
+								key={index}
+								className={`${styles.indicator} ${index === videoSlideIndex ? styles.active : ''}`}
+							></span>
+						))}
 					</div>
 					<div className={styles.sliderButtonContainer}>
 						<button className={styles.prevButton} onClick={prevSlide}>Prev</button>
