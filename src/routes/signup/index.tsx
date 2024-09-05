@@ -1,7 +1,7 @@
 import Header from "../../components/app/Header";
 import style from "./index.module.css";
 
-function LoginPage() {
+function SignupPage() {
     return (
         <>
             <Header/>
@@ -10,9 +10,13 @@ function LoginPage() {
                     <div className={style.loginBox}>
                         <div className={style.loginHead}>
                             <img className={style.loginImage} src={"/images/foxhead.png"} alt={"foxhead"}/>
-                            <h1>Join In Wabada Land!</h1>
+                            <h1>Welcome to SAR!</h1>
                         </div>
                         
+                        <div className={style.inputLogin}>
+                            <h2>Name</h2>
+                            <input type="text" className={style.inputName} placeholder={"WABADA"}></input>
+                        </div>
                         <div className={style.inputLogin}>
                             <h2>ID</h2>
                             <input type="text" className={style.inputId} placeholder={"SuperFox's ID"}></input>
@@ -21,7 +25,11 @@ function LoginPage() {
                             <h2>Password</h2>
                             <input type="password" className={style.inputPassword} placeholder={"SuperFox's password"}></input>
                         </div>
-                        <button className={style.signinGoogle}>Sign In with&nbsp;
+                        <div className={style.inputLogin}>
+                            <h2>Password Check</h2>
+                            <input type="password" className={style.inputPassword} placeholder={"SuperFox's password"}></input>
+                        </div>
+                        <button className={style.signinGoogle}>Sign Up with&nbsp;
                             <span className={style.signinGoogle1}>G</span>
                             <span className={style.signinGoogle2}>o</span>
                             <span className={style.signinGoogle3}>o</span>
@@ -30,9 +38,9 @@ function LoginPage() {
                             <span className={style.signinGoogle6}>e</span>
                         </button>
 
-                        <button className={style.signinButton}>Sign In</button>
+                        <button className={style.signinButton}>Sign Up</button>
                         <div className={style.signupLink}>
-                            <span onClick={() => window.location.href = '../signup'}>Don't you have an account? Join Us!</span>
+                            <span onClick={() => window.location.href = '../login'}>Already have an account? Log In!</span>
                         </div>
                     </div>
                 </div>
@@ -43,4 +51,4 @@ function LoginPage() {
 }
 
 
-export default LoginPage;
+export default SignupPage;

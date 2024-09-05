@@ -5,6 +5,7 @@ import IndexPage from "./routes";
 import MerchPage from "./routes/merch";
 import LoginPage from "./routes/login";
 import CommunityPage from "./routes/community";
+import SignupPage from "./routes/signup";
 
 const router = createBrowserRouter([
 	{
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
 	{
 		path: "/login",
 		element: <LoginPage/>,
+	},
+	{
+		path: "/signup",
+		element: <SignupPage/>,
 	},
 	{
 		path: "/community",

@@ -42,7 +42,7 @@ h1 {
     align-items: center;
 }
 
-.inputId, .inputPassword {
+.inputName, .inputId, .inputPassword {
     width: 100%;
     height: 50px;
     font-size: x-large;
