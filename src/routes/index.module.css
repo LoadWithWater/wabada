@@ -300,3 +300,12 @@ section .contentContainer > .descriptionContainer .description + .description {
     font-weight: 100;
     color: #000000;
 }
+
+
+.newsPage {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: #000000;
+    height: auto;
+    color: #ffffff;
+}

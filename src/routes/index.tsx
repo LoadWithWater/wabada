@@ -131,6 +131,9 @@ function IndexPage() {
 			<section className={styles.sectionNews}>
 				<div className={styles.contentContainer}>
 					<div className={styles.centeredPlaceholder}>NEWS</div>
+					<div className={styles.newsPage}>
+						
+					</div>
 				</div>
 			</section>
 			<section className={styles.sectionCredit}>
