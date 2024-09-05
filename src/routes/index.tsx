@@ -100,7 +100,7 @@ function IndexPage() {
 							</div>
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SUPER ANIMAL ROYALE</div>
-								<div className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+								<div className={styles.description}>Play on PC, Mac, Xbox One, Xbox Series S|X, PS4, PS5 and Nintendo Switch.</div>
 							</div>
 						</div>
 						<div className={styles.dlcSlide}>
@@ -109,7 +109,9 @@ function IndexPage() {
 							</div>
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SUPER EDITION</div>
-								<div className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+								<div className={styles.description}>Play on PC, Mac, Xbox One, Xbox Series S|X, PS4, PS5 and Nintendo Switch.
+									
+								</div>
 							</div>
 						</div>
 						<div className={styles.dlcSlide}>
@@ -118,7 +120,9 @@ function IndexPage() {
 							</div>
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SEASON 10 STARTER PACK</div>
-								<div className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+								<div className={styles.description}>Play on PC, Mac, Xbox One, Xbox Series S|X, PS4, PS5 and Nintendo Switch.
+									
+								</div>
 							</div>
 						</div>
 					</div>
