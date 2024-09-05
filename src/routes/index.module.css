@@ -266,21 +266,21 @@ section .contentContainer > .descriptionContainer .description + .description {
     transition:
         color 0.3s,
         background-color 0.3s,
-        transform 0.3s;
+        transform 0.2s;
 }
 .prevButton:hover {
-    background: #000000;
-    color: #FFFFFF;
+    background-color: #ffffff;
+    color: #000000;
 }
 .nextButton {
     transition:
         color 0.3s,
         background-color 0.3s,
-        transform 0.3s;
+        transform 0.2s;
 }
 .nextButton:hover {
-    background: #000000;
-    color: #FFFFFF;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 
