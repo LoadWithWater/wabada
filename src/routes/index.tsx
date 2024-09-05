@@ -38,9 +38,10 @@ function IndexPage() {
 						Which animal will survive to the end and become WABADA?
 					</div>
 					<div className={styles.heroButtons}>
-						<button className={[styles.button, styles.steam].join(" ")}>Steam</button>
-						<button className={[styles.button, styles.xbox].join(" ")}>Xbox</button>
-						<button className={[styles.button, styles.nintendo].join(" ")}>Nintendo</button>
+						<button className={[styles.button, styles.steam].join(" ")} onClick={() => window.location.href = 'https://store.steampowered.com/app/843380/Super_Animal_Royale/'}>Steam</button>
+						<button className={[styles.button, styles.xbox].join(" ")} onClick={() => window.location.href = 'https://www.xbox.com/en-us/games/store/super-animal-royale/9n872vfsppql/'}>Xbox</button>
+						<button className={[styles.button, styles.playstation].join(" ")} onClick={() => window.location.href = 'https://store.playstation.com/concept/10000714/'}>PlayStation</button>
+						<button className={[styles.button, styles.nintendo].join(" ")} onClick={() => window.location.href = 'https://www.nintendo.com/games/detail/super-animal-royale-switch/'}>Nintendo</button>
 					</div>
 				</div>
 			</main>

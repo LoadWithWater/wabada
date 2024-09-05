@@ -152,7 +152,7 @@ section .contentContainer > .descriptionContainer .description + .description {
 }
 
 .button, .prevButton, .nextButton {
-    padding: 20px 70px 20px 70px; 
+    padding: 20px 80px 20px 80px; 
     border-radius: 50px;
     border: none;
     font-family: inherit;
@@ -166,17 +166,17 @@ section .contentContainer > .descriptionContainer .description + .description {
 
 .steam {
     color: #ffffff;
-    background-color: #0e1d45;
-    border: solid 2px #9bd8e7;
+    background-color: #000000;
+    border: solid 2px #e6e6e6;
     transition:
         color 0.3s,
         background-color 0.3s,
         transform 0.3s;
 }
 .steam:hover {
-    background-color: #9bd8e7;
+    background-color: #e6e6e6;
     color: #000000;
-    border: solid 2px #9bd8e7;
+    border: solid 2px #e6e6e6;
 }
 .xbox {
     color: #ffffff;
@@ -191,6 +191,20 @@ section .contentContainer > .descriptionContainer .description + .description {
     background-color: #9fee9f;
     color: #000000;
     border: solid 2px #9fee9f;
+}
+.playstation {
+    color: #ffffff;
+    background-color: #002D8D;
+    border: solid 2px #e1daff;
+    transition:
+        color 0.3s,
+        background-color 0.3s,
+        transform 0.3s;
+}
+.playstation:hover {
+    background-color: #e1daff;
+    color: #000000;
+    border: solid 2px #e1daff;
 }
 .nintendo {
     color: #ffffff;
