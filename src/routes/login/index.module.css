@@ -58,15 +58,49 @@ h2 {
     margin-top: 30px;
 }
 
+.signinGoogle {
+    font-family: inherit;
+    font-size: x-large;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    margin-top: 10%;
+    border: none;
+    border-radius: 30px;
+    transition: 
+        color 0.2s,
+        background-color 0.2s,
+        transform 0.2s
+}
+.signinGoogle:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.signinGoogle1, .signinGoogle4 {
+    color: #4285f4;
+}
+.signinGoogle2, .signinGoogle6 {
+    color: #ea4335;
+}
+.signinGoogle3 {
+    color: #fbbc05;
+}
+.signinGoogle5 {
+    color: #34a853;
+}
+
+
 .signinButton {
-    margin-top: 10px;
     font-family: inherit;
     font-size: x-large;
     background-color: #dd5c32;
     color: white;
     width: 100%;
     height: 50px;
-    margin-top: 10%;
+    margin-top: 20px;
     border: none;
     border-radius: 30px;
     transition: 
@@ -78,5 +112,13 @@ h2 {
     background-color: #FFFFFF;
     color: #dd5c32;
     cursor: pointer;
-    border: 1px #dd5c32 solid;
+    border: 2px #dd5c32 solid;
+}
+
+
+.signupLink {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #dd5c32
 }
