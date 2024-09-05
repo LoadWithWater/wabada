@@ -7,21 +7,16 @@ function IndexPage() {
 	// States
 
 	const [videoSlideIndex, setVideoSlideIndex] = useState<number>(0);
-	const totalSlides: number = 4; // 슬라이드 총 개수
+	const totalSlides: number = 6; // 슬라이드 총 개수
 
 	// Callbacks
-
 	const prevSlide = useCallback(() => {
-
-		setVideoSlideIndex((prev) => prev - 1 < 0 ? 0 : prev - 1);
-
-	}, []);
+		setVideoSlideIndex((prev) => prev - 1 < 0 ? totalSlides - 1 : prev - 1);
+	}, [totalSlides]);
 
 	const nextSlide = useCallback(() => {
-
-		setVideoSlideIndex((prev) => prev + 1 > 3 ? 3 : prev + 1);
-
-	}, []);
+		setVideoSlideIndex((prev) => prev + 1 >= totalSlides ? 0 : prev + 1);
+	}, [totalSlides]);
 
 	// Render
 
@@ -56,6 +51,12 @@ function IndexPage() {
 					</div>
 					<div className={styles.sliderWrapper}>
 						<div className={styles.slider} style={{ left: `calc(${-100 * videoSlideIndex}% + ${-30 * videoSlideIndex}px)` }}>
+							<div className={styles.slide}>
+								<iframe width="960" height="540" src="https://www.youtube.com/embed/ykNQCEA1p2o" title="" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+							</div>
+							<div className={styles.slide}>
+								<iframe width="960" height="540" src="https://www.youtube.com/embed/fVb7TEYKIPs" title="" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+							</div>
 							<div className={styles.slide}>
 								<iframe width="960" height="540" src="https://www.youtube.com/embed/U4302dKJegc" title="" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 							</div>
