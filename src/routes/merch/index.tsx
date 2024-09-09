@@ -20,12 +20,12 @@ function MerchPage() {
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
-								<button>Sold Out</button>
+								<button className={styles.buyButton}><span className="won">￦ </span>19,900</button>
 							</div>
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Tumbler</p>
-								<button>Sold Out</button>
+								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
 						</div>
 					</div>
@@ -38,17 +38,17 @@ function MerchPage() {
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
-								<button>Sold Out</button>
+								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Tumbler</p>
-								<button>Sold Out</button>
+								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Tumbler</p>
-								<button>Sold Out</button>
+								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
 						</div>
 					</div>
@@ -61,17 +61,17 @@ function MerchPage() {
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
-								<button>Sold Out</button>
+								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Tumbler</p>
-								<button>Sold Out</button>
+								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
 							<div className="item-background">
 								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Tumbler</p>
-								<button>Sold Out</button>
+								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
 						</div>
 					</div>
