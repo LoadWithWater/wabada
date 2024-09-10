@@ -6,13 +6,13 @@ function MerchPage() {
 	return (
 		<>
 			<Header/>
-			<section id="sectionMerch">
+			{/* <section id="sectionMerch">
 				<div className="content-container">
 					<div className="centered-placeholder">
 						<i className="fa-sharp fa-regular fa-cart-shopping"></i>
 					</div>
 				</div>
-			</section>
+			</section> */}
 			<section id="sectionMerch1">
 				<div className="content-container">
 					<div className="centered-placeholder">

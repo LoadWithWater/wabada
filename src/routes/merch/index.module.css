@@ -1,17 +1,26 @@
+body {
+    background-image: url(../../../public/images/SAR_Background_1.jpg);
+}
+
+
 #sectionMerch1 {
     padding: 100px 0;
     background-color: rgb(238, 226, 226);
-    background-image: url('/images/SAR\ background\ 1.jpg');
+    background-image: url(../../../public/images/SAR_Background_1.jpg);
 }
 #sectionMerch2 {
     padding: 100px 0;
     background-color: rgb(238, 226, 226);
-    background-image: url('/images/SAR\ background\ 2.jpg');
+    background-image: url(../../../public/images/SAR_Background_2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 #sectionMerch3 {
     padding: 100px 0;
     background-color: rgb(238, 226, 226);
-    background-image: url('/images/SAR\ background\ 3.jpg');
+    background-image: url(../../../public/images/SAR_Background_3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .itemBack {

@@ -17,7 +17,7 @@
     min-height: 600px;
     max-height: 1080px;
     background-color: rgb(201, 201, 201);
-    background-image: url("/images/hero.jpeg");
+    background-image: url("/images/SAR_Background_0.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -40,7 +40,8 @@
 }
 
 .sectionHero .heroLogo img {
-    width: 360px;
+    width: 100%;
+    z-index: -10;
 }
 
 .sectionHero .heroDescription {

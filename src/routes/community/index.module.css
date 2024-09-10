@@ -1,0 +1,58 @@
+#sectionMerch1 {
+    padding: 100px 0;
+    background-color: rgb(238, 226, 226);
+    background-image: url('/images/SAR\ background\ 1.jpg');
+}
+#sectionMerch2 {
+    padding: 100px 0;
+    background-color: rgb(238, 226, 226);
+    background-image: url('/images/SAR\ background\ 2.jpg');
+}
+#sectionMerch3 {
+    padding: 100px 0;
+    background-color: rgb(238, 226, 226);
+    background-image: url('/images/SAR\ background\ 3.jpg');
+}
+
+.itemBack {
+    display: flex;
+    justify-content: right;
+}
+.item-background {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin : 10px;
+}
+
+
+.buyButton {
+    font-family: inherit;
+    background-color: white;
+    color: rgb(222, 33, 33);
+    width: 100px;
+    height: 30px;
+    font-weight: 900;
+    border: none;
+    border-radius: 30px;
+    transition: 
+        color 0.2s,
+        background-color 0.2s,
+        transform 0.2s
+}
+.buyButton:hover {
+    background-color: rgb(222, 33, 33);
+    color: white;
+    cursor: pointer;
+}
+.soldoutButton {
+    font-family: inherit;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: 900;
+    border: none;
+    border-radius: 30px;
+}

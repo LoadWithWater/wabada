@@ -26,7 +26,7 @@ function IndexPage() {
 			<main className={styles.sectionHero}>
 				<div className={styles.heroCenter}>
 					<div className={styles.heroLogo}>
-						<img alt={"SUPER ANIMAL ROYALE"} src={"/images/sar-logo.png"}/>
+						<img alt={"SUPER ANIMAL ROYALE"} src={"/images/SAR_Background_0.png"}/>
 					</div>
 					<div className={styles.heroDescription}>
 						64 animals will fight against each other and only the last one will emerge victorious!<br/>
