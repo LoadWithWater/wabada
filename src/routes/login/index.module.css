@@ -1,5 +1,6 @@
 body {
     background-image: url(../../../public/images/SAR_Background_3.jpg);
+    background-size: 100% auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -16,7 +17,7 @@ body {
     background-color: #FFFFFF;
     opacity: 0.9;
     width: 50vw;
-    height: 110vh;
+    height: 100vh;
     padding: 10px 0px 10px 0px;
 }
 
