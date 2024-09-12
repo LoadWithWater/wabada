@@ -5,8 +5,8 @@ function SignupPage() {
     return (
         <>
             <Header/>
-            <div className={style.loginBackground}>
-                <div className={style.loginContainer}>
+            <div className={style.sighupBackground}>
+                <div className={style.sighupContainer}>
                     <div className={style.loginBox}>
                         <div className={style.loginHead}>
                             <img className={style.loginImage} src={"/images/foxhead.png"} alt={"foxhead"}/>

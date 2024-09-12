@@ -1,11 +1,8 @@
-body {
+.loginBackground {
     background-image: url(../../../public/images/SAR_Background_3.jpg);
     background-size: 100% auto;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.loginBackground {
     display: grid;
     justify-content: right;
 }
