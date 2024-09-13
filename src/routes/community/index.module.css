@@ -1,58 +1,30 @@
-#sectionMerch1 {
-    padding: 100px 0;
-    background-color: rgb(238, 226, 226);
-    background-image: url('/images/SAR\ background\ 1.jpg');
-}
-#sectionMerch2 {
-    padding: 100px 0;
-    background-color: rgb(238, 226, 226);
-    background-image: url('/images/SAR\ background\ 2.jpg');
-}
-#sectionMerch3 {
-    padding: 100px 0;
-    background-color: rgb(238, 226, 226);
-    background-image: url('/images/SAR\ background\ 3.jpg');
+.communityBanner {
+    height: 30vh;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0)),
+                    url('/images/SAR_Background_1.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.itemBack {
+.communityContainer {
+    background-color: rgb(246, 165, 165);
+    height: 100vh;
     display: flex;
-    justify-content: right;
+    flex-direction: column;
+    align-items: center;
 }
-.item-background {
-    width: 300px;
-    height: 400px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    margin : 10px;
+
+.communityList {
+    background-color: aliceblue;
+    width: 60%;
+    height: 95%;
 }
 
 
-.buyButton {
-    font-family: inherit;
-    background-color: white;
-    color: rgb(222, 33, 33);
-    width: 100px;
-    height: 30px;
-    font-weight: 900;
-    border: none;
-    border-radius: 30px;
-    transition: 
-        color 0.2s,
-        background-color 0.2s,
-        transform 0.2s
-}
-.buyButton:hover {
-    background-color: rgb(222, 33, 33);
-    color: white;
-    cursor: pointer;
-}
-.soldoutButton {
-    font-family: inherit;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    width: 100px;
-    height: 30px;
-    font-weight: 900;
-    border: none;
-    border-radius: 30px;
+
+@media (max-width: 768px) {
+    .itemBack {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
