@@ -6,24 +6,27 @@ function MerchPage() {
 	return (
 		<>
 			<Header/>
-			{/* <section id="sectionMerch">
+
+			<section className={styles.merchBanner}>
 				<div className="content-container">
 					<div className="centered-placeholder">
 						<i className="fa-sharp fa-regular fa-cart-shopping"></i>
+						
 					</div>
 				</div>
-			</section> */}
-			<section id="sectionMerch1">
+			</section>
+
+			<section className={styles.sectionMerch1}>
 				<div className="content-container">
 					<div className="centered-placeholder">
 						<div className={styles.itemBack}>
-							<div className="item-background">
-								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
+							<div className={styles.itemBackground}>
+								<img style={{ paddingTop: "10px", borderRadius: "0px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
 								<button className={styles.buyButton}><span className="won">￦ </span>19,900</button>
 							</div>
-							<div className="item-background">
-								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
+							<div className={styles.itemBackground}>
+								<img style={{ paddingTop: "10px", borderRadius: "0px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Tumbler</p>
 								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
@@ -31,22 +34,22 @@ function MerchPage() {
 					</div>
 				</div>
 			</section>
-			<section id="sectionMerch2">
+			<section className={styles.sectionMerch2}>
 				<div className="content-container">
 					<div className="centered-placeholder">
 						<div className={styles.itemBack}>
-							<div className="item-background">
-								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
+							<div className={styles.itemBackground}>
+								<img style={{ paddingTop: "10px", borderRadius: "0px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
 								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
-							<div className="item-background">
-								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
+							<div className={styles.itemBackground}>
+								<img style={{ paddingTop: "10px", borderRadius: "0px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Tumbler</p>
 								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
-							<div className="item-background">
-								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
+							<div className={styles.itemBackground}>
+								<img style={{ paddingTop: "10px", borderRadius: "0px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Tumbler</p>
 								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
@@ -54,22 +57,22 @@ function MerchPage() {
 					</div>
 				</div>
 			</section>
-			<section id="sectionMerch3">
+			<section className={styles.sectionMerch3}>
 				<div className="content-container">
 					<div className="centered-placeholder">
 						<div className={styles.itemBack}>
-							<div className="item-background">
-								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
+							<div className={styles.itemBackground}>
+								<img style={{ paddingTop: "10px", borderRadius: "0px" }} width="280px" height="300px" src="/images/HealthJuice-SippyCan.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
 								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
-							<div className="item-background">
-								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
+							<div className={styles.itemBackground}>
+								<img style={{ paddingTop: "10px", borderRadius: "0px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Tumbler</p>
 								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>
-							<div className="item-background">
-								<img style={{ paddingTop: "10px", borderRadius: "10px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
+							<div className={styles.itemBackground}>
+								<img style={{ paddingTop: "10px", borderRadius: "0px" }} width="280px" height="300px" src="/images/HealthJuice-Tumbler.webp" />
 								<p style={{ fontSize: "26px", color: "black" }}>Health Juice Tumbler</p>
 								<button className={styles.soldoutButton}>Sold Out</button>
 							</div>

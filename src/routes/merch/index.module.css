@@ -1,18 +1,21 @@
-
-#sectionMerch1 {
-    padding: 100px 0;
-    background-image: url(/images/SAR_Background_1.jpg);
-}
-#sectionMerch2 {
-    padding: 100px 0;
-    background-image: url(/images/SAR_Background_2.jpg);
+.merchBanner {
+    height: 30vh;
+    background-image: url("/images/SAR_Background_0.jpg");
     background-size: cover;
     background-position: center;
 }
-#sectionMerch3 {
+.sectionMerch1 {
+    background-color: rgb(96, 133, 166);
+}
+.sectionMerch2 {    
+    background-color: rgb(69, 177, 163);
+}
+.sectionMerch3 {
+    background-color: rgb(193, 226, 254);
+}
+#sectionMerch1, #sectionMerch2, #sectionMerch3 {
     padding: 100px 0;
-    background-color: rgb(238, 226, 226);
-    background-image: url(/images/SAR_Background_3.jpg);
+    min-height: 400px; /* 섹션에 최소 높이 설정 */
     background-size: cover;
     background-position: center;
 }
@@ -22,10 +25,13 @@
     display: flex;
     justify-content: right;
 }
-.item-background {
+.itemBackground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 197, 197);
     width: 300px;
     height: 400px;
-    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin : 10px;
 }
