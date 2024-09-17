@@ -22,12 +22,7 @@ function MerchPage() {
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
               <div className={styles.itemBackground}>
-                <img
-                  style={{ paddingTop: "10px", borderRadius: "0px" }}
-                  width="280px"
-                  height="300px"
-                  src="/images/HealthJuice-SippyCan.webp"
-                />
+                <img src="/images/HealthJuice-SippyCan.webp"/>
                 <p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
                 <button className={styles.buyButton}>
                   <span className="won">￦ </span>19,900
@@ -46,12 +41,7 @@ function MerchPage() {
             <div className={styles.itemBack}>
               {/* Repeatable Items */}
               <div className={styles.itemBackground}>
-                <img
-                  style={{ paddingTop: "10px", borderRadius: "0px" }}
-                  width="280px"
-                  height="300px"
-                  src="/images/HealthJuice-SippyCan.webp"
-                />
+                <img src="/images/HealthJuice-SippyCan.webp"/>
                 <p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
@@ -68,12 +58,7 @@ function MerchPage() {
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
               <div className={styles.itemBackground}>
-                <img
-                  style={{ paddingTop: "10px", borderRadius: "0px" }}
-                  width="280px"
-                  height="300px"
-                  src="/images/HealthJuice-SippyCan.webp"
-                />
+                <img src="/images/HealthJuice-SippyCan.webp"/>
                 <p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
