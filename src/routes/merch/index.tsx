@@ -63,6 +63,11 @@ function MerchPage() {
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
               {/* Add additional items as needed */}
+              <div className={styles.itemBackground}>
+                <img src="/images/HealthJuice-SippyCan.webp"/>
+                <p style={{ fontSize: "26px", color: "black" }}>Health Juice Can</p>
+                <button className={styles.soldoutButton}>Sold Out</button>
+              </div>
             </div>
           </div>
         </div>
