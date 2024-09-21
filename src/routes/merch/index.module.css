@@ -46,6 +46,10 @@
     width: 280px;
     height: 300px;
 }
+.itemBackground p {
+    font-size: 26px;
+    color: black;
+}
 
 .buyButton {
     font-family: inherit;
