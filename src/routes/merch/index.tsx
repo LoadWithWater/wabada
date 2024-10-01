@@ -11,7 +11,7 @@ function MerchPage() {
         <div className="content-container">
           <div className="centered-placeholder">
             {/* <i className="fa-sharp fa-regular fa-cart-shopping"></i> */}
-			<h1 style={{ padding: "0px", margin: "0px" }}>Merch</h1>
+			      <h1 style={{ padding: "0px", margin: "-50px 0px" }}>Merch</h1>
           </div>
         </div>
       </section>
