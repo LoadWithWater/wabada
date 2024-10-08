@@ -40,6 +40,16 @@
     border-radius: 10px;
     margin : 10px;
 }
+.itemBackground img {
+    padding-top: 10px;
+    border-radius: 0px;
+    width: 280px;
+    height: 300px;
+}
+.itemBackground p {
+    font-size: 26px;
+    color: black;
+}
 
 .buyButton {
     font-family: inherit;
