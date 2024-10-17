@@ -125,6 +125,17 @@ function IndexPage() {
 								</div>
 							</div>
 						</div>
+						<div className={styles.dlcSlide}>
+							<div className={styles.dlcImg}>
+								<img src="/images/Super Animal Royale Starter Pack.png" width="228" height="342"/>
+							</div>
+							<div className={styles.dlcInfo}>
+								<div className={styles.title}>SEASON 10 STARTER PACK</div>
+								<div className={styles.description}>Play on PC, Mac, Xbox One, Xbox Series S|X, PS4, PS5 and Nintendo Switch.
+									
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
