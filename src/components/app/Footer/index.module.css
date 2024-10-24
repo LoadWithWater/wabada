@@ -1,59 +1,59 @@
-/* .header {
-    position: fixed;
-    top: 100;
-    left: 0;
+.footer {
+    background-color: #333;
+    color: #b7b7b7;
     width: 100%;
-    height: 60px;
-    z-index: 999;
-    background-color: #444444;
-    transition: background-color 0.25s;
-}
-
-.header.transparent {
-    background-color: transparent;
-}
-
-.header .container {
+    height: 100px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footerContainer {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
-}
-
-.header .logo {
-    font-size: 32px;
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-}
-.header .logo a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #ffffff;
-    border-radius: 8px;
-    padding: 4px 8px;
-    transition: transform 0.25s, background-color 0.25s;
-}
-
-.header .navigation {
+    flex-wrap: wrap;
+  }
+  
+  .footerContent {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
-}
-
-.header .navigation a {
-    font-weight: bold;
+  }
+  
+  .footerContent p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .socialIcons {
+    margin-top: 10px;
+  }
+  
+  .socialIcons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .socialIcons a:hover {
+    color: #00aced; /* 소셜 아이콘 hover 색상 */
+  }
+  
+  .footerLinks {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footerLinks a {
+    color: #fff;
     text-decoration: none;
-    color: #ffffff;
-    border-radius: 8px;
-    padding: 4px 8px;
-    transition: transform 0.25s, background-color 0.25s;
-}
-
-.header .navigation a:hover {
-    transform: scale(1.25);
-    background-color: rgba(255, 255, 255, 0.25);
-} */
+    font-size: 14px;
+  }
+  
+  .footerLinks a:hover {
+    text-decoration: underline;
+  }
+  

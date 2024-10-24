@@ -1,4 +1,5 @@
 import Header from "../components/app/Header";
+import Footer from "../components/app/Footer";
 import styles from "./index.module.css";
 import { useCallback, useState } from "react";
 
@@ -151,6 +152,7 @@ function IndexPage() {
 				<div className={styles.contentContainer}>
 				</div>
 			</section>
+			<Footer />
 		</>
 	);
 

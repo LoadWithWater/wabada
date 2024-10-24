@@ -1,46 +1,37 @@
-// import style from "./index.module.css";
-// import { useEffect, useState } from "react";
-// import { Link } from "react-router-dom";
+import style from "./index.module.css";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-// interface Props {
-// 	transparentOnTop?: boolean;
-// }
+interface Props {
+	transparentOnTop?: boolean;
+}
 
-// function Header(props: Props) {
+const Footer = (props: Props) => {
+  return (
+    <footer className={style.footer}>
+      <div className={style.footerContainer}>
+        <div className={style.footerContent}>
+          <p>© 2024 Animal Royale. All rights reserved.</p>
+          <div className={style.socialIcons}>
+            {/* 여기에 소셜 아이콘 추가 (예: FontAwesome) */}
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div className={style.footerLinks}>
+          <a href="/privacy-policy">Privacy Policy</a>
+          <a href="/terms-of-service">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-// 	// States
-// 	const [isTransparent, setIsTransparent] = useState<boolean>(!!props.transparentOnTop);
-
-// 	// Effects
-// 	useEffect(() => {
-// 		if (!props.transparentOnTop) return;
-// 		const callback = () => {
-// 			if (window.scrollY === 0) setIsTransparent(true);
-// 			else setIsTransparent(false);
-// 		};
-
-// 		window.addEventListener("scroll", callback);
-// 		return () => {
-// 			window.removeEventListener("scroll", callback);
-// 		};
-// 	}, [props.transparentOnTop]);
-
-// 	// Render
-// 	return (
-// 		<div className={[style.header, isTransparent ? style.transparent : ""].join(" ")}>
-// 			<div className={style.container}>
-// 				<div className={style.logo}><Link to="/">Main</Link></div>
-// 				<nav className={style.navigation}>
-// 					<Link to="/merch">MERCH</Link>
-// 					<a href="https://animalroyale.fandom.com/wiki/Super_Animal_Royale_Wiki">WIKI</a>
-// 					<Link to="/community">COMMUNITY</Link>
-// 					<Link to="/login">Login</Link>
-// 					{/* <Link to="/profile">PROFILE</Link> */}
-// 				</nav>
-// 			</div>
-// 		</div>
-// 	);
-
-// }
-
-// export default Header;
+export default Footer;
