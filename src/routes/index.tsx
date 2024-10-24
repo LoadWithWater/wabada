@@ -97,7 +97,7 @@ function IndexPage() {
 					<div className={styles.dlcSlider}>
 						<div className={styles.dlcSlide}>
 							<div className={styles.dlcImg}>
-								<img src="/images/Super Animal Royale Free Edition.png" width="228" height="342"/>
+								<img src="/images/Super_Animal_Royale_Free_Edition.png" width="228" height="342"/>
 							</div>
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SUPER ANIMAL ROYALE</div>
@@ -106,7 +106,7 @@ function IndexPage() {
 						</div>
 						<div className={styles.dlcSlide}>
 							<div className={styles.dlcImg}>
-								<img src="/images/Super Animal Royale Super Edition.png" width="228" height="342"/>
+								<img src="/images/Super_Animal_Royale_Super_Edition.png" width="228" height="342"/>
 							</div>
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SUPER EDITION</div>
@@ -117,10 +117,10 @@ function IndexPage() {
 						</div>
 						<div className={styles.dlcSlide}>
 							<div className={styles.dlcImg}>
-								<img src="/images/Super Animal Royale Starter Pack.png" width="228" height="342"/>
+								<img src="/images/Super_Animal_Royale_Support_Pack.png" width="228" height="342"/>
 							</div>
 							<div className={styles.dlcInfo}>
-								<div className={styles.title}>SEASON 10 STARTER PACK</div>
+								<div className={styles.title}>SUPER ANIMAL ROYALE SUPPORT PACK</div>
 								<div className={styles.description}>Play on PC, Mac, Xbox One, Xbox Series S|X, PS4, PS5 and Nintendo Switch.
 									
 								</div>
@@ -128,7 +128,7 @@ function IndexPage() {
 						</div>
 						<div className={styles.dlcSlide}>
 							<div className={styles.dlcImg}>
-								<img src="/images/Super Animal Royale Starter Pack.png" width="228" height="342"/>
+								<img src="/images/Super_Animal_Royale_Starter_Pack.png" width="228" height="342"/>
 							</div>
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SEASON 10 STARTER PACK</div>
