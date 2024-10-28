@@ -13,6 +13,7 @@ function CommunityPage() {
         { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15' },
         { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15' },
         { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15' },
+        { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15' },
         // 게시글 추가 가능
     ];
 
