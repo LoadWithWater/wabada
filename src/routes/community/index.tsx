@@ -1,21 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from "../../components/app/Header";
+import Footer from "../../components/app/Footer"
 import styles from "./index.module.css";
 
+// 게시글 데이터 및 카테고리 리스트 데이터 정의
+const postList = [
+    { id: 1, title: 'Welcome to the Community', author: 'Admin', date: '2024-01-01', category: 'General' },
+    { id: 2, title: 'React Tips and Tricks', author: 'JohnDoe', date: '2024-01-05', category: 'React' },
+    { id: 3, title: 'How to use CSS Grid', author: 'JaneSmith', date: '2024-01-10', category: 'CSS' },
+    { id: 4, title: 'Upcoming Features in JavaScript', author: 'Techie', date: '2024-01-12', category: 'JavaScript' },
+    { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15', category: 'CSS' },
+];
+
+const categories = ['All', 'General', 'React', 'CSS', 'JavaScript'];
+
 function CommunityPage() {
-    // 가상 게시글 리스트 데이터
-    const postList = [
-        { id: 1, title: 'Welcome to the Community', author: 'Admin', date: '2024-01-01' },
-        { id: 2, title: 'React Tips and Tricks', author: 'JohnDoe', date: '2024-01-05' },
-        { id: 3, title: 'How to use CSS Grid', author: 'JaneSmith', date: '2024-01-10' },
-        { id: 4, title: 'Upcoming Features in JavaScript', author: 'Techie', date: '2024-01-12' },
-        { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15' },
-        { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15' },
-        { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15' },
-        { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15' },
-        { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15' },
-        // 게시글 추가 가능
-    ];
+    const [selectedCategory, setSelectedCategory] = useState('All'); // 선택된 카테고리 상태 관리
+
+    // 선택된 카테고리에 따라 게시글 필터링
+    const filteredPosts = selectedCategory === 'All' 
+        ? postList 
+        : postList.filter(post => post.category === selectedCategory);
 
     return (
         <>
@@ -28,9 +33,22 @@ function CommunityPage() {
                 </div>
             </section>
             <section className={styles.communityContainer}>
+                <div className={styles.sidebar}>
+                    <h3>Categories</h3>
+                    <ul>
+                        {categories.map(category => (
+                            <li 
+                                key={category} 
+                                className={selectedCategory === category ? styles.activeCategory : ''}
+                                onClick={() => setSelectedCategory(category)}
+                            >
+                                {category}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
                 <div className={styles.communityList}>
-                    {/* 게시글 리스트 렌더링 */}
-                    {postList.map(post => (
+                    {filteredPosts.map(post => (
                         <div key={post.id} className={styles.postItem}>
                             <h3 className={styles.postTitle}>{post.title}</h3>
                             <div className={styles.postMeta}>
@@ -41,6 +59,8 @@ function CommunityPage() {
                     ))}
                 </div>
             </section>
+
+            <Footer />
         </>
     );
 }
