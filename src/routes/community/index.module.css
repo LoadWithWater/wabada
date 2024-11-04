@@ -8,6 +8,9 @@
 
 .communityContainer {
     display: flex;
+    justify-content: center;
+    height: 80vh;
+    background-color: #333;
     padding: 20px;
 }
 
@@ -20,6 +23,7 @@
     position: sticky; /* 스크롤 시 고정 */
     top: 20px; /* 고정 위치 설정 */
     height: fit-content;
+    margin-right: 5vw;
 }
 
 .sidebar h3 {
@@ -55,8 +59,6 @@
     gap: 15px;
     width: 100%;
     max-width: 800px;
-    margin-left: 220px; /* 사이드바와 간격 설정 */
-    padding-left: 20px;
 }
 
 .postItem {
