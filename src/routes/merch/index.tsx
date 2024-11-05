@@ -1,4 +1,5 @@
 import Header from "../../components/app/Header";
+import Footer from "../../components/app/Footer";
 import styles from "./index.module.css";
 
 function MerchPage() {
@@ -11,7 +12,8 @@ function MerchPage() {
         <div className="content-container">
           <div className="centered-placeholder">
             {/* <i className="fa-sharp fa-regular fa-cart-shopping"></i> */}
-			      <h1 style={{ padding: "0px", margin: "-50px 0px" }}>Merch</h1>
+            <img src="./images/SuperAnimalRoyale-Logo-Dark.svg" alt="Banner Logo" className={styles.bannerLogo} />
+			      {/* <h1 style={{ padding: "0px", margin: "-50px 0px" }}>Merch</h1> */}
           </div>
         </div>
       </section>
@@ -21,6 +23,7 @@ function MerchPage() {
         <div className="content-container">
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
+              {/* Repeatable Items */}
               <div className={styles.itemBackground}>
                 <img src="/images/HealthJuice-SippyCan.webp"/>
                 <p>Health Juice Can</p>
@@ -28,7 +31,17 @@ function MerchPage() {
                   <span className="won">￦ </span>19,900
                 </button>
               </div>
-              
+              {/* Add additional items as needed */}
+              <div className={styles.itemBackground}>
+                <img src="/images/HealthJuice-SippyCan.webp"/>
+                <p>Health Juice Can</p>
+                <button className={styles.soldoutButton}>Sold Out</button>
+              </div>
+              <div className={styles.itemBackground}>
+                <img src="/images/HealthJuice-SippyCan.webp"/>
+                <p>Health Juice Can</p>
+                <button className={styles.soldoutButton}>Sold Out</button>
+              </div>
             </div>
           </div>
         </div>
@@ -46,13 +59,12 @@ function MerchPage() {
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
               {/* Add additional items as needed */}
-			  
-
               <div className={styles.itemBackground}>
                 <img src="/images/HealthJuice-SippyCan.webp"/>
                 <p>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
+
             </div>
           </div>
         </div>
@@ -78,6 +90,9 @@ function MerchPage() {
           </div>
         </div>
       </section>
+
+
+      <Footer />
     </>
   );
 }
