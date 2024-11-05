@@ -49,25 +49,50 @@
 .itemBackground p {
     font-size: 26px;
     color: black;
+    margin-top: 5px;
 }
 
+
+/* 구매 버튼 : 기본 상태에서의 스타일 */
 .buyButton {
     font-family: inherit;
     background-color: white;
-    color: rgb(222, 33, 33);
-    width: 100px;
+    color: rgb(0, 0, 0);
+    width: 150px;
     height: 30px;
+    margin-top: 5px;
     font-weight: 900;
     border: none;
     border-radius: 30px;
-    transition: color 0.2s, background-color 0.2s, transform 0.2s;
+    transition: color 0.3s, background-color 0.3, transform 0.3s;
+    position: relative; /* 텍스트 위치 고정에 필요 */
+    overflow: hidden; /* 텍스트 오버플로 방지 */
 }
 
-.buyButton:hover {
-    background-color: rgb(222, 33, 33);
+/* hover 상태에서 텍스트 변경 */
+.buyButton:hover::before {
+    content: 'ADD TO CART'; /* 마우스가 올라가면 표시할 텍스트 */
     color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 33, 33); /* 배경색도 hover 스타일에 맞게 */
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+/* 원래 텍스트가 사라지도록 처리 */
+.buyButton:hover {
+    color: transparent; /* 기존 텍스트를 숨김 */
+    background-color: rgb(222, 33, 33); /* 배경색은 hover 시 일치하게 */
     cursor: pointer;
 }
+
+
 
 .soldoutButton {
     font-family: inherit;
