@@ -21,6 +21,10 @@ function MerchPage() {
       {/* Section 1: Health Juice Can & Tumbler */}
       <section className={styles.sectionMerch1}>
         <div className="content-container">
+          <div className="button-container">
+            <button>←</button>
+            <button>→</button>
+          </div>
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
               {/* Repeatable Items */}
