@@ -143,4 +143,10 @@
     margin-left: 5px;
     color: white;
     background-color: #000000;
+    border: 0px;
+    transition: all 0.2s;
+}
+.buttonContainer>button:hover {
+    background-color: white;
+    color: #000000;
 }
