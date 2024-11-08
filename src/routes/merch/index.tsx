@@ -53,7 +53,7 @@ function MerchPage() {
 
       {/* Section 2 */}
       <section className={styles.sectionMerch2}>
-        <div className="button-container">
+        <div className={styles.buttonContainer}>
           <button>←</button>
           <button>→</button>
         </div>
@@ -80,7 +80,7 @@ function MerchPage() {
 
       {/* Section 3 */}
       <section className={styles.sectionMerch3}>
-        <div className="button-container">
+        <div className={styles.buttonContainer}>
           <button>←</button>
           <button>→</button>
         </div>
