@@ -70,7 +70,7 @@
     font-weight: 900;
     border: none;
     border-radius: 30px;
-    transition: color 0.3s, background-color 0.3, transform 0.3s;
+    transition: color 0.3s, background-color 0.3s, transform 1s;
     position: relative; /* 텍스트 위치 고정에 필요 */
     overflow: hidden; /* 텍스트 오버플로 방지 */
 }
