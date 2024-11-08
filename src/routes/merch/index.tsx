@@ -20,11 +20,11 @@ function MerchPage() {
 
       {/* Section 1: Health Juice Can & Tumbler */}
       <section className={styles.sectionMerch1}>
+        <div className={styles.buttonContainer}>
+          <button>←</button>
+          <button>→</button>
+        </div>
         <div className="content-container">
-          <div className="button-container">
-            <button>←</button>
-            <button>→</button>
-          </div>
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
               {/* Repeatable Items */}
@@ -53,6 +53,10 @@ function MerchPage() {
 
       {/* Section 2 */}
       <section className={styles.sectionMerch2}>
+        <div className="button-container">
+          <button>←</button>
+          <button>→</button>
+        </div>
         <div className="content-container">
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
@@ -76,6 +80,10 @@ function MerchPage() {
 
       {/* Section 3 */}
       <section className={styles.sectionMerch3}>
+        <div className="button-container">
+          <button>←</button>
+          <button>→</button>
+        </div>
         <div className="content-container">
           <div className="centered-placeholder">
             <div className={styles.itemBack}>

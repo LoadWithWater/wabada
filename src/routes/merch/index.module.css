@@ -9,22 +9,19 @@
 .sectionMerch1 {
     background-color: rgb(96, 133, 166);
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    flex-direction: column;
 }
 
 .sectionMerch2 {    
     background-color: rgb(69, 177, 163);
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    flex-direction: column;
 }
 
 .sectionMerch3 {
     background-color: rgb(193, 226, 254);
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    flex-direction: column;
 }
 
 #sectionMerch1, #sectionMerch2, #sectionMerch3 {
@@ -132,4 +129,10 @@
     transform: translateX(-50%); /* 완전한 중앙 정렬을 위해 사용 */
     width: 150px; /* 적절한 크기로 조정 */
     height: auto;
+}
+
+
+.buttonContainer {
+    display: flex;
+    justify-content: right;
 }
