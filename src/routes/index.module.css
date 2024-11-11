@@ -1,5 +1,5 @@
 .contentContainer {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 16px;
     display: flex;
@@ -141,6 +141,11 @@ section .contentContainer > .descriptionContainer .description + .description {
     padding: 100px 0;
     background-color: rgb(89, 128, 69);
 }
+.newsPage>.newsArticle {
+    font-size: 30px;
+}
+
+
 
 
 
@@ -177,13 +182,13 @@ section .contentContainer > .descriptionContainer .description + .description {
     display: flex;
     flex-wrap: wrap; /* 화면 크기에 맞춰 로고가 자동 줄바꿈 */
     justify-content: center; /* 가운데 정렬 */
-    gap: 20px; /* 로고 간격 */
+    gap: 10px; /* 로고 간격 */
     padding: 20px;
 }
 
 /* 개별 로고 버튼 스타일 */
 .logo:first-child {
-    width: 200px; /* 모든 로고 크기 고정 */
+    width: 190px; /* 모든 로고 크기 고정 */
     height: 60px;
     position: relative;
     display: flex;
@@ -191,8 +196,16 @@ section .contentContainer > .descriptionContainer .description + .description {
     align-items: center;
     margin-top: -10px;
 }
+.logo:nth-child(2), .logo:nth-child(4) {
+    width: 250px; /* 모든 로고 크기 고정 */
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .logo {
-    width: 200px; /* 모든 로고 크기 고정 */
+    width: 190px; /* 모든 로고 크기 고정 */
     height: 40px;
     position: relative;
     display: flex;
@@ -231,7 +244,10 @@ section .contentContainer > .descriptionContainer .description + .description {
 }
 
 .ratingImage {
-    margin: 20px 0 0 0;
+    margin: 20px 0 30px 0;
+}
+.ratingImage>img {
+    width: 300px;
 }
 
 

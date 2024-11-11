@@ -146,22 +146,22 @@ function IndexPage() {
 					<div className={styles.newsPage}>
 						{/* News Contents */}
 						<article className={styles.newsArticle}>
-						<h2>Howloween 2024 Week 3 & Day of the Dead</h2>
-						<p>
-							The latest news for Super Animal Royale, posted on October 29, 2024, is titled 
-							<strong>"Howloween 2024 Week 3 & Day of the Dead"</strong>. 
-							This update reveals the final week’s challenges and rewards for the Howloween event, which will conclude on November 8.
-						</p>
-						<p>
-							Additionally, two new super animal breeds, <strong>Super Kappa Turtle</strong> and <strong>Super Alebrije Owl</strong>, have been added to the research lab.
-						</p>
-						<p>
-							Moreover, by using the code <strong>'DAYOFTHEDEAD'</strong>, players can unlock several new items, including the 
-							<strong>White Mariachi Hat</strong> and <strong>Mariachi Dress</strong>.
-						</p>
-						<a href="https://steamcommunity.com/app/843380/allnews/" target="_blank" rel="noopener noreferrer">
-							Read more on Steam
-						</a>
+							<h2>Howloween 2024 Week 3 & Day of the Dead</h2>
+							<p>
+								The latest news for Super Animal Royale, posted on October 29, 2024, is titled 
+								<strong>"Howloween 2024 Week 3 & Day of the Dead"</strong>. 
+								This update reveals the final week’s challenges and rewards for the Howloween event, which will conclude on November 8.
+							</p>
+							<p>
+								Additionally, two new super animal breeds, <strong>Super Kappa Turtle</strong> and <strong>Super Alebrije Owl</strong>, have been added to the research lab.
+							</p>
+							<p>
+								Moreover, by using the code <strong>'DAYOFTHEDEAD'</strong>, players can unlock several new items, including the 
+								<strong>White Mariachi Hat</strong> and <strong>Mariachi Dress</strong>.
+							</p>
+							<a href="https://steamcommunity.com/app/843380/allnews/" target="_blank" rel="noopener noreferrer">
+								Read more on Steam
+							</a>
 						</article>
 					</div>
 				</div>
