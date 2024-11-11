@@ -24,7 +24,6 @@
     background-size: cover;
     background-position: center;
 }
-
 .sectionHero .heroCenter {
     position: absolute;
     width: 100%;
@@ -36,21 +35,17 @@
     color: #ffffff;
     text-align: center;
 }
-
 .sectionHero .heroLogo {
     font-size: 48px;
     margin-top: 100px;
 }
-
 .sectionHero .heroLogo img {
     width: 100%;
     z-index: -10;
 }
-
 .sectionHero .heroDescription {
     font-size: 20px;
 }
-
 .sectionHero .heroButtons {
     display: flex;
     align-items: end;
@@ -64,13 +59,11 @@
     color: #ffffff;
     background-color: #444444;
 }
-
 .sectionDescription iframe {
     aspect-ratio: 16 / 9;
     width: 100%;
     height: auto;
 }
-
 .sectionDescription .sliderButtonContainer {
     display: flex;
     justify-content: center;
@@ -85,14 +78,12 @@ section .contentContainer > .title {
     margin-bottom: 32px;
     text-align: center;
 }
-
 section .contentContainer > .descriptionContainer {
     color: #ffffff;
     text-align: center;
     margin-bottom: 32px;
     font-size: 24px;
 }
-
 section .contentContainer > .descriptionContainer .description + .description {
     margin-top: 32px;
 }
@@ -101,29 +92,24 @@ section .contentContainer > .descriptionContainer .description + .description {
     padding: 100px 0;
     background-color: rgb(121, 101, 101);
 }
-
 .sectionPurchase .dlcSlider {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
-
 .sectionPurchase .dlcSlide {
     position: relative;
     flex-basis: 550px;
 }
-
 .sectionPurchase .dlcImg {
     position: absolute;
     z-index: 2;
     left: 50px;
 }
-
 .sectionPurchase .dlcImg img {
     display: block;
     border-radius: 10px;
 }
-
 .sectionPurchase .dlcInfo {
     margin: 30px 0;
     padding: 20px 20px 20px 298px;
@@ -131,12 +117,10 @@ section .contentContainer > .descriptionContainer .description + .description {
     width: 100%;
     background-color: #ffffff;
 }
-
 .sectionPurchase .dlcInfo .title {
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 .sectionNews {
     padding: 100px 0;
     background-color: rgb(89, 128, 69);
