@@ -144,12 +144,69 @@ function IndexPage() {
 				<div className={styles.contentContainer}>
 					<div className={styles.centeredPlaceholder}>NEWS</div>
 					<div className={styles.newsPage}>
-						
+						{/* News Contents */}
+						<article className={styles.newsArticle}>
+						<h2>Howloween 2024 Week 3 & Day of the Dead</h2>
+						<p>
+							The latest news for Super Animal Royale, posted on October 29, 2024, is titled 
+							<strong>"Howloween 2024 Week 3 & Day of the Dead"</strong>. 
+							This update reveals the final week’s challenges and rewards for the Howloween event, which will conclude on November 8.
+						</p>
+						<p>
+							Additionally, two new super animal breeds, <strong>Super Kappa Turtle</strong> and <strong>Super Alebrije Owl</strong>, have been added to the research lab.
+						</p>
+						<p>
+							Moreover, by using the code <strong>'DAYOFTHEDEAD'</strong>, players can unlock several new items, including the 
+							<strong>White Mariachi Hat</strong> and <strong>Mariachi Dress</strong>.
+						</p>
+						<a href="https://steamcommunity.com/app/843380/allnews/" target="_blank" rel="noopener noreferrer">
+							Read more on Steam
+						</a>
+						</article>
 					</div>
 				</div>
 			</section>
 			<section className={styles.sectionCredit}>
 				<div className={styles.contentContainer}>
+					<a href="https://pixilestudios.com/" target="_blank">
+						<img src="/public/images/logos/pixile_logo.png" />
+					</a>
+					<h1>Available Now on PC, Mac & All Major Consoles</h1>
+					<div className={styles.logoContainer}>
+						<div className={styles.logo}>
+							<a href="https://pixilestudios.com/" target="_blank">
+								<img src="/public/images/logos/logos_steam.png" className={styles.defaultLogo}/>
+								<img src="/public/images/logos/logos_steam_colored.png" className={styles.coloredLogo}/>
+							</a>
+						</div>
+						<div className={styles.logo}>
+							<a href="https://pixilestudios.com/" target="_blank">
+								<img src="/public/images/logos/logos_PS5PS4.png" className={styles.defaultLogo}/>
+								<img src="/public/images/logos/logos_PS5PS4_colored.png" className={styles.coloredLogo}/>
+							</a>
+						</div>
+						<div className={styles.logo}>
+							<a href="https://pixilestudios.com/" target="_blank">
+								<img src="/public/images/logos/logos_XBOXONE.png" className={styles.defaultLogo}/>
+								<img src="/public/images/logos/logos_XBOXONE_colored.png" className={styles.coloredLogo}/>
+							</a>
+						</div>
+						<div className={styles.logo}>
+							<a href="https://pixilestudios.com/" target="_blank">
+								<img src="/public/images/logos/logos_XboxSeriesXS.png" className={styles.defaultLogo}/>
+								<img src="/public/images/logos/logos_XboxSeriesXS_colored.png" className={styles.coloredLogo}/>
+							</a>
+						</div>
+						<div className={styles.logo}>
+							<a href="https://pixilestudios.com/" target="_blank">
+								<img src="/public/images/logos/logos_SWITCH.png" className={styles.defaultLogo}/>
+								<img src="/public/images/logos/logos_SWITCH_colored.png" className={styles.coloredLogo}/>
+							</a>
+						</div>
+					</div>
+					<div className={styles.ratingImage}>
+						<img src="/public/images/SAR_Rating.png" />
+					</div>
 				</div>
 			</section>
 			<Footer />

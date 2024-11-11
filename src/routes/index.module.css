@@ -2,6 +2,9 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .centeredPlaceholder {
@@ -139,18 +142,99 @@ section .contentContainer > .descriptionContainer .description + .description {
     background-color: rgb(89, 128, 69);
 }
 
+
+
+/* sectionCredit */
 .sectionCredit {
-    padding: 100px 0;
-    position: relative;
-    height: 200vh;
-    min-height: 400px;
-    max-height: 400px;
+    width: 100%;
     background-color: #2b302f;
-    background-image: url("/images/pixile.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+.sectionCredit .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px; /* 최대 너비 설정으로 중앙에 정렬 */
+    width: 100%;
+}
+
+.sectionCredit > .contentContainer > a {
+    margin-top: 30px;
+}
+
+.sectionCredit > .contentContainer > h1 {
+    color: white;
+    margin: 20px 0;
+}
+
+/* 로고들이 들어 있는 박스 스타일 */
+.logoContainer {
+    display: flex;
+    flex-wrap: wrap; /* 화면 크기에 맞춰 로고가 자동 줄바꿈 */
+    justify-content: center; /* 가운데 정렬 */
+    gap: 20px; /* 로고 간격 */
+    padding: 20px;
+}
+
+/* 개별 로고 버튼 스타일 */
+.logo:first-child {
+    width: 200px; /* 모든 로고 크기 고정 */
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+.logo {
+    width: 200px; /* 모든 로고 크기 고정 */
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 기본 로고 이미지와 컬러 로고 이미지 모두 크기 고정 */
+.defaultLogo, .coloredLogo {
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease; /* 부드러운 전환 효과 */
+    border: 2px solid transparent; /* 기본 상태에서 투명한 border로 크기 고정 */
+}
+
+/* 기본 로고: 기본 상태에서 보이도록 설정 */
+.defaultLogo {
+    opacity: 1;
+}
+
+/* hover 시 기본 로고 숨기기 */
+.logo:hover .defaultLogo {
+    opacity: 0;
+}
+
+/* hover 시 컬러 로고 표시 */
+.coloredLogo {
+    opacity: 0;
+}
+
+.logo:hover .coloredLogo {
+    opacity: 1;
+}
+
+.ratingImage {
+    margin: 20px 0 0 0;
+}
+
+
 
 .button, .prevButton, .nextButton {
     width: 200px;
@@ -304,10 +388,43 @@ section .contentContainer > .descriptionContainer .description + .description {
 }
 
 
+
 .newsPage {
     width: 100%;
     padding: 10px 10px 10px 10px;
     background-color: #000000;
     height: auto;
     color: #ffffff;
+}
+
+.centeredPlaceholder {
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.newsArticle h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e26868;
+}
+
+.newsArticle p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.newsArticle a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.newsArticle a:hover {
+    text-decoration: underline;
 }
