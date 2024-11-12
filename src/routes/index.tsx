@@ -34,10 +34,10 @@ function IndexPage() {
 						Which animal will survive to the end and become WABADA?
 					</div>
 					<div className={styles.heroButtons}>
-						<button className={[styles.button, styles.steam].join(" ")} onClick={() => window.location.href = 'https://store.steampowered.com/app/843380/Super_Animal_Royale/'}>Steam</button>
-						<button className={[styles.button, styles.xbox].join(" ")} onClick={() => window.location.href = 'https://www.xbox.com/en-us/games/store/super-animal-royale/9n872vfsppql/'}>Xbox</button>
-						<button className={[styles.button, styles.playstation].join(" ")} onClick={() => window.location.href = 'https://store.playstation.com/concept/10000714/'}>PlayStation</button>
-						<button className={[styles.button, styles.nintendo].join(" ")} onClick={() => window.location.href = 'https://www.nintendo.com/games/detail/super-animal-royale-switch/'}>Nintendo</button>
+						<button className={[styles.button, styles.steam].join(" ")} onClick={() => window.open('https://store.steampowered.com/app/843380/Super_Animal_Royale/', '_blank')}>Steam</button>
+						<button className={[styles.button, styles.xbox].join(" ")} onClick={() => window.open('https://www.xbox.com/en-us/games/store/super-animal-royale/9n872vfsppql/', '_blank')}>Xbox</button>
+						<button className={[styles.button, styles.playstation].join(" ")} onClick={() => window.open('https://store.playstation.com/concept/10000714/', '_blank')}>PlayStation</button>
+						<button className={[styles.button, styles.nintendo].join(" ")} onClick={() => window.open('https://www.nintendo.com/games/detail/super-animal-royale-switch/', '_blank')}>Nintendo</button>
 					</div>
 				</div>
 			</main>
@@ -88,7 +88,7 @@ function IndexPage() {
 			</section>
 			<section className={styles.sectionPurchase}>
 				<div className={styles.contentContainer}>
-					<div className={styles.title}>FIGHT FOR FURVIVAL</div>
+					<div className={styles.title}>GET SUPER ANIMAL ROYALE</div>
 					<div className={styles.descriptionContainer}>
 						<div className={styles.description}>
 							Play Super Animal Royale free, or upgrade to the Super Edition!
@@ -101,7 +101,13 @@ function IndexPage() {
 							</div>
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SUPER ANIMAL ROYALE</div>
-								<div className={styles.description}>Play on PC, Mac, Xbox One, Xbox Series S|X, PS4, PS5 and Nintendo Switch.</div>
+								<div className={styles.description}>
+									Play on PC, Mac, Xbox One, Xbox Series S|X, PS4, PS5 and Nintendo Switch.
+									<div className={styles.descriptionDetail}>
+										<span>Play for Free</span>
+										<p>Unlock 300+ Super Animal Breeds and 400+ Cosmetic Items!</p>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div className={styles.dlcSlide}>
@@ -110,8 +116,18 @@ function IndexPage() {
 							</div>
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SUPER EDITION</div>
-								<div className={styles.description}>Play on PC, Mac, Xbox One, Xbox Series S|X, PS4, PS5 and Nintendo Switch.
-									
+								<div className={styles.description}>
+									Play on PC, Mac, Xbox One, Xbox Series S|X, PS4, PS5 and Nintendo Switch.
+									<div className={styles.descriptionDetail}>
+										<span>DLC + Super Perks</span>
+										<ul>
+											<li>4 Exclusive Super Animals</li>
+											<li>10 Exclusive Cosmetic Items</li>
+											<li>1000 S.A.W. Tickets</li>
+											<li>100+ Super Milestones</li>
+											<li>2x Carl Coin earn rate</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -133,7 +149,15 @@ function IndexPage() {
 							<div className={styles.dlcInfo}>
 								<div className={styles.title}>SEASON 10 STARTER PACK</div>
 								<div className={styles.description}>Play on PC, Mac, Xbox One, Xbox Series S|X, PS4, PS5 and Nintendo Switch.
-									
+									<div className={styles.descriptionDetail}>
+										<span>Available During Season 10</span>
+										<ul>
+											<li>Super Fairy Skullcat</li>
+											<li>Fairy Armor</li>
+											<li>Fairy Sword</li>
+											<li>600 S.A.W. Tickets</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>

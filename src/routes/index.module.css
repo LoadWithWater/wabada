@@ -121,6 +121,8 @@ section .contentContainer > .descriptionContainer .description + .description {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+
 .sectionNews {
     padding: 100px 0;
     background-color: rgb(89, 128, 69);
@@ -386,8 +388,36 @@ section .contentContainer > .descriptionContainer .description + .description {
     font-weight: 100;
     color: #000000;
 }
-
-
+/* DLC Title Color */
+.dlcSlide:nth-child(1)>.dlcInfo>.description>.descriptionDetail>span {
+    font-weight: 600;
+    color: #43AD76;
+}
+.dlcSlide:nth-child(1)>.dlcInfo>.description>.descriptionDetail>ul {
+    margin-left: 15px;
+}
+.dlcSlide:nth-child(2)>.dlcInfo>.title {
+    color: #d18900;
+}
+.dlcSlide:nth-child(2)>.dlcInfo>.description>.descriptionDetail>span {
+    font-weight: 600;
+    color: #43AD76;
+}
+.dlcSlide:nth-child(2)>.dlcInfo>.description>.descriptionDetail>ul {
+    margin-left: 15px;
+}
+.dlcSlide:nth-child(3)>.dlcInfo>.title {
+    color: #9876D8;
+}
+.dlcSlide:nth-child(4)>.dlcInfo>.title {
+    color: #43B4A8;
+}
+.dlcSlide:nth-child(4)>.dlcInfo>.description>.descriptionDetail>span {
+    font-weight: 600;
+}
+.dlcSlide:nth-child(4)>.dlcInfo>.description>.descriptionDetail>ul {
+    margin-left: 15px;
+}
 
 .newsPage {
     width: 100%;
