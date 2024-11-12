@@ -29,7 +29,7 @@ function MerchPage() {
             <div className={styles.itemBack}>
               {/* Repeatable Items */}
               <div className={styles.itemBackground}>
-                <img src="/images/HealthJuice-SippyCan.webp"/>
+                <img src="" alt="Name?"/>
                 <p>Health Juice Can</p>
                 <button className={styles.buyButton}>
                   <span className="won">￦ </span>19,900
@@ -37,12 +37,12 @@ function MerchPage() {
               </div>
               {/* Add additional items as needed */}
               <div className={styles.itemBackground}>
-                <img src="/images/HealthJuice-SippyCan.webp"/>
+                <img src="" alt="Name?"/>
                 <p>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
               <div className={styles.itemBackground}>
-                <img src="/images/HealthJuice-SippyCan.webp"/>
+                <img src="" alt="Name?"/>
                 <p>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
@@ -62,13 +62,13 @@ function MerchPage() {
             <div className={styles.itemBack}>
               {/* Repeatable Items */}
               <div className={styles.itemBackground}>
-                <img src="/images/HealthJuice-SippyCan.webp"/>
+                <img src="" alt="Name?"/>
                 <p>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
               {/* Add additional items as needed */}
               <div className={styles.itemBackground}>
-                <img src="/images/HealthJuice-SippyCan.webp"/>
+                <img src="" alt="Name?"/>
                 <p>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
@@ -88,13 +88,13 @@ function MerchPage() {
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
               <div className={styles.itemBackground}>
-                <img src="/images/HealthJuice-SippyCan.webp"/>
+                <img src="" alt="Name?"/>
                 <p>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
               {/* Add additional items as needed */}
               <div className={styles.itemBackground}>
-                <img src="/images/HealthJuice-SippyCan.webp"/>
+                <img src="" alt="Name?"/>
                 <p>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
