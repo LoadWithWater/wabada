@@ -29,7 +29,7 @@ function MerchPage() {
             <div className={styles.itemBack}>
               {/* Repeatable Items */}
               <div className={styles.itemBackground}>
-                <img src="" alt="Name?"/>
+                <img src="/public/images/Merchs/HealthJuice_SippyCan1.png" alt="Name?"/>
                 <p>Health Juice Can</p>
                 <button className={styles.buyButton}>
                   <span className="won">￦ </span>19,900
@@ -37,12 +37,12 @@ function MerchPage() {
               </div>
               {/* Add additional items as needed */}
               <div className={styles.itemBackground}>
-                <img src="" alt="Name?"/>
+                <img src="/public/images/Merchs/HealthJuice_Tumbler1.png" alt="Name?"/>
                 <p>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
               <div className={styles.itemBackground}>
-                <img src="" alt="Name?"/>
+                <img src="/public/images/Merchs/HealthJuice_TumblerLid1.png" alt="Name?"/>
                 <p>Health Juice Can</p>
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
