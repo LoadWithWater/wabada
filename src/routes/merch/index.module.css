@@ -67,55 +67,60 @@
 .itemBackground p {
     font-size: 26px;
     color: black;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-weight: 600;
 }
+
+
+
+/* Item Info */
+.itemInfo {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.itemPrice {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
 
 
 /* 구매 버튼 : 기본 상태에서의 스타일 */
 .buyButton {
     font-family: inherit;
-    background-color: white;
     color: rgb(0, 0, 0);
-    width: 150px;
-    height: 30px;
+    background-color: white;
+    width: 160px;
+    height: 35px;
     margin-top: 5px;
+    font-size: 18px;
     font-weight: 900;
-    border: none;
+    border: 1px solid black;
     border-radius: 30px;
     transition: color 0.3s, background-color 0.3s, transform 1s;
     position: relative; /* 텍스트 위치 고정에 필요 */
     overflow: hidden; /* 텍스트 오버플로 방지 */
 }
-
-/* hover 상태에서 텍스트 변경 */
-.buyButton:hover::before {
-    content: 'ADD TO CART'; /* 마우스가 올라가면 표시할 텍스트 */
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(222, 33, 33); /* 배경색도 hover 스타일에 맞게 */
-    transition: color 0.3s, background-color 0.3s, transform 0.3s;
-}
-
-/* 원래 텍스트가 사라지도록 처리 */
 .buyButton:hover {
-    color: transparent; /* 기존 텍스트를 숨김 */
-    background-color: rgb(222, 33, 33); /* 배경색은 hover 시 일치하게 */
+    border: none;
+    background-color: #43AD76;
+    color: white;
     cursor: pointer;
 }
+
 .soldoutButton {
     font-family: inherit;
     background-color: rgb(0, 0, 0);
     color: white;
-    width: 150px;
-    height: 30px;
+    width: 160px;
+    height: 35px;
     margin-top: 5px;
+    font-size: 18px;
     font-weight: 900;
     border: none;
     border-radius: 30px;
@@ -138,18 +143,23 @@
     justify-content: space-between;
 }
 .itemHeader>h1 {
-    margin: 20px 0px 10px 20px;
+    font-size: 48px;
+    color: white;
+    margin: 20px 0px 0px 20px;
     padding: 0px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.6);
 }
 .buttonContainer {
     display: flex;
     justify-content: right;
-    margin: 20px 20px 10px 0px;
+    margin: 30px 20px 20px 0px;
 }
 .buttonContainer>button {
-    width: 50px;
-    height: 50px;
-    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    font-size: 32px;
+    padding: 0px 0px 6px 0px;
     color: white;
     background-color: #000000;
     border: 0px;
@@ -158,8 +168,5 @@
 .buttonContainer>button:hover {
     background-color: white;
     color: #000000;
+    cursor: pointer;
 }
-
-
-
-
