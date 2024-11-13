@@ -20,10 +20,14 @@ function MerchPage() {
 
       {/* Section 1: Health Juice Can & Tumbler */}
       <section className={styles.sectionMerch1}>
-        <div className={styles.buttonContainer}>
-          <button>◀</button>
-          <button>▶</button>
+        <div className={styles.itemHeader}>
+          <h1>ETC</h1>
+          <div className={styles.buttonContainer}>
+            <button>◀</button>
+            <button>▶</button>
+          </div>
         </div>
+
         <div className="content-container">
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
@@ -53,10 +57,14 @@ function MerchPage() {
 
       {/* Section 2 */}
       <section className={styles.sectionMerch2}>
-        <div className={styles.buttonContainer}>
-          <button>◀</button>
-          <button>▶</button>
+        <div className={styles.itemHeader}>
+          <h1>ETC</h1>
+          <div className={styles.buttonContainer}>
+            <button>◀</button>
+            <button>▶</button>
+          </div>
         </div>
+
         <div className="content-container">
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
@@ -85,10 +93,14 @@ function MerchPage() {
 
       {/* Section 3 */}
       <section className={styles.sectionMerch3}>
-        <div className={styles.buttonContainer}>
-          <button>◀</button>
-          <button>▶</button>
+        <div className={styles.itemHeader}>
+          <h1>ETC</h1>
+          <div className={styles.buttonContainer}>
+            <button>◀</button>
+            <button>▶</button>
+          </div>
         </div>
+        
         <div className="content-container">
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
