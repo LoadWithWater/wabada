@@ -11,11 +11,15 @@ function MerchPage() {
       <section className={styles.merchBanner}>
         <div className="content-container">
           <div className={styles.merchbannerBackground}>
-            
+
           </div>
           <div className="centered-placeholder">
             <img src="./images/SuperAnimalRoyale-Logo-Dark.svg" alt="Banner Logo" className={styles.bannerLogo} />
-            <button className={styles.merchallButton}>View All Apparel</button>
+            <button className={styles.merchallButton}>
+              <a href="#">
+                View All Apparel
+              </a>
+            </button>
 			      <img src="./images/SAWShopLogo.png" alt="Banner Logo 2" className={styles.bannerLogo2} />
           </div>
         </div>

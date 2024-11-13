@@ -40,6 +40,10 @@
     background-color: #43AD76;
     cursor: pointer;
 }
+.merchallButton>a {
+    color: white;
+    text-decoration: none;
+}
 .merchbannerBackground {
     position: absolute;
     width: 50%;
