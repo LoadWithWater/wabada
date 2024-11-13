@@ -10,10 +10,13 @@ function MerchPage() {
       {/* Merch Banner Section */}
       <section className={styles.merchBanner}>
         <div className="content-container">
+          <div className={styles.merchbannerBackground}>
+            
+          </div>
           <div className="centered-placeholder">
-            {/* <i className="fa-sharp fa-regular fa-cart-shopping"></i> */}
             <img src="./images/SuperAnimalRoyale-Logo-Dark.svg" alt="Banner Logo" className={styles.bannerLogo} />
-			      {/* <h1 style={{ padding: "0px", margin: "-50px 0px" }}>Merch</h1> */}
+            <button className={styles.merchallButton}>View All Apparel</button>
+			      <img src="./images/SAWShopLogo.png" alt="Banner Logo 2" className={styles.bannerLogo2} />
           </div>
         </div>
       </section>
@@ -40,9 +43,7 @@ function MerchPage() {
                   <div className={styles.itemPrice}>
                     <span className="won">￦ </span>19,900
                   </div>
-                  <button className={styles.buyButton}>
-                    <span>Add To Cart</span>
-                  </button>
+                  <button className={styles.buyButton}>Add To Cart</button>
                 </div>
               </div>
 
@@ -55,7 +56,7 @@ function MerchPage() {
                   <div className={styles.itemPrice}>
                     <span className="won">￦ </span>19,900
                   </div>
-                  <button className={styles.soldoutButton}>Sold Out</button>
+                  <button className={styles.buyButton}>Add To Cart</button>
                 </div>
               </div>
 
@@ -75,6 +76,8 @@ function MerchPage() {
         </div>
       </section>
 
+
+
       {/* Section 2 */}
       <section className={styles.sectionMerch2}>
         <div className={styles.itemHeader}>
@@ -90,45 +93,47 @@ function MerchPage() {
             <div className={styles.itemBack}>
               {/* Repeatable Items */}
               <div className={styles.itemBackground}>
-                <img src="" alt="Name?"/>
-                <p>Health Juice Can</p>
+                <img src="/public/images/Merchs/Tee_GLHF1.png" alt="Name?"/>
+                <p>GLHF TEE</p>
                 
                 <div className={styles.itemInfo}>
                   <div className={styles.itemPrice}>
                     <span className="won">￦ </span>19,900
                   </div>
-                  <button className={styles.soldoutButton}>Sold Out</button>
+                  <button className={styles.buyButton}>Add To Cart</button>
                 </div>
               </div>
 
               {/* Add additional items as needed */}
               <div className={styles.itemBackground}>
-                <img src="" alt="Name?"/>
-                <p>Health Juice Can</p>
+                <img src="/public/images/Merchs/Tee_SeaVisitor1.png" alt="Name?"/>
+                <p>Sea Visitor Tee</p>
                 
                 <div className={styles.itemInfo}>
                   <div className={styles.itemPrice}>
                     <span className="won">￦ </span>19,900
                   </div>
-                  <button className={styles.soldoutButton}>Sold Out</button>
+                  <button className={styles.buyButton}>Add To Cart</button>
                 </div>
               </div>
 
               <div className={styles.itemBackground}>
-                <img src="" alt="Name?"/>
-                <p>Health Juice Can</p>
+                <img src="/public/images/Merchs/Tee_SlowJam1.png" alt="Name?"/>
+                <p>Slow Jam Tee</p>
                 
                 <div className={styles.itemInfo}>
                   <div className={styles.itemPrice}>
                     <span className="won">￦ </span>19,900
                   </div>
-                  <button className={styles.soldoutButton}>Sold Out</button>
+                  <button className={styles.buyButton}>Add To Cart</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+
 
       {/* Section 3 */}
       <section className={styles.sectionMerch3}>
@@ -144,38 +149,38 @@ function MerchPage() {
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
               <div className={styles.itemBackground}>
-                <img src="" alt="Name?"/>
-                <p>Health Juice Can</p>
+                <img src="/public/images/Merchs/Flag_Rebel1.png" alt="Name?"/>
+                <p>Rabel Flag</p>
                 
                 <div className={styles.itemInfo}>
                   <div className={styles.itemPrice}>
                     <span className="won">￦ </span>19,900
                   </div>
-                  <button className={styles.soldoutButton}>Sold Out</button>
+                  <button className={styles.buyButton}>Add To Cart</button>
                 </div>
               </div>
               {/* Add additional items as needed */}
               <div className={styles.itemBackground}>
-                <img src="" alt="Name?"/>
-                <p>Health Juice Can</p>
+                <img src="/public/images/Merchs/Flag_SAW1.png" alt="Name?"/>
+                <p>SAW Flag</p>
                 
                 <div className={styles.itemInfo}>
                   <div className={styles.itemPrice}>
                     <span className="won">￦ </span>19,900
                   </div>
-                  <button className={styles.soldoutButton}>Sold Out</button>
+                  <button className={styles.buyButton}>Add To Cart</button>
                 </div>
               </div>
 
               <div className={styles.itemBackground}>
-                <img src="" alt="Name?"/>
-                <p>Health Juice Can</p>
+                <img src="/public/images/Merchs/CoastersSet1.png" alt="Name?"/>
+                <p>Coasters Set</p>
                 
                 <div className={styles.itemInfo}>
                   <div className={styles.itemPrice}>
                     <span className="won">￦ </span>19,900
                   </div>
-                  <button className={styles.soldoutButton}>Sold Out</button>
+                  <button className={styles.buyButton}>Add To Cart</button>
                 </div>
               </div>
             </div>
