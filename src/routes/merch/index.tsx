@@ -73,6 +73,11 @@ function MerchPage() {
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
 
+              <div className={styles.itemBackground}>
+                <img src="" alt="Name?"/>
+                <p>Health Juice Can</p>
+                <button className={styles.soldoutButton}>Sold Out</button>
+              </div>
             </div>
           </div>
         </div>
@@ -93,6 +98,12 @@ function MerchPage() {
                 <button className={styles.soldoutButton}>Sold Out</button>
               </div>
               {/* Add additional items as needed */}
+              <div className={styles.itemBackground}>
+                <img src="" alt="Name?"/>
+                <p>Health Juice Can</p>
+                <button className={styles.soldoutButton}>Sold Out</button>
+              </div>
+
               <div className={styles.itemBackground}>
                 <img src="" alt="Name?"/>
                 <p>Health Juice Can</p>
