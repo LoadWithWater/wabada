@@ -35,7 +35,7 @@ function MerchPage() {
           </div>
         </div>
 
-        <div className="content-container">
+        <div className={styles.contentContainer}>
           <div className="centered-placeholder">
             <div className={styles.itemBack}>
               {/* Repeatable Items */}
@@ -179,6 +179,18 @@ function MerchPage() {
               <div className={styles.itemBackground}>
                 <img src="/public/images/Merchs/CoastersSet1.png" alt="Name?"/>
                 <p>Coasters Set</p>
+                
+                <div className={styles.itemInfo}>
+                  <div className={styles.itemPrice}>
+                    <span className="won">￦ </span>19,900
+                  </div>
+                  <button className={styles.buyButton}>Add To Cart</button>
+                </div>
+              </div>
+
+              <div className={styles.itemBackground}>
+                <img src="/public/images/Merchs/StickerEmojiPack1.png" alt="Name?"/>
+                <p>Sticker Emoji Pack</p>
                 
                 <div className={styles.itemInfo}>
                   <div className={styles.itemPrice}>

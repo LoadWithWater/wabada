@@ -52,6 +52,15 @@
     background-color: #000000;
 }
 
+
+.contentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+
+
 .sectionMerch1 {
     background-image: url("/public/images/Merchs/SARMerchBackImg_HealthJuice.png");
     display: flex;
