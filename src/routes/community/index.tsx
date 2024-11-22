@@ -9,7 +9,8 @@ const postList = [
     { id: 2, title: 'React Tips and Tricks', author: 'JohnDoe', date: '2024-01-05', category: 'React' },
     { id: 3, title: 'How to use CSS Grid', author: 'JaneSmith', date: '2024-01-10', category: 'CSS' },
     { id: 4, title: 'Upcoming Features in JavaScript', author: 'Techie', date: '2024-01-12', category: 'JavaScript' },
-    { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15', category: 'CSS' }
+    { id: 5, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15', category: 'CSS' },
+    { id: 6, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15', category: 'CSS' },
     { id: 6, title: 'Best Practices for CSS', author: 'WebDev', date: '2024-01-15', category: 'CSS' }
 ];
 
